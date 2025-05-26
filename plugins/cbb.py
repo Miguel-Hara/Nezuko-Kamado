@@ -67,17 +67,19 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             chat_id=query.message.chat.id,
             photo=QR_PIC,
             caption=(
-                f"👋 {query.from_user.username}\n\n"
-                f"🎖️ Available Plans :\n\n"
-                f"● {PRICE1}  For 0 Days Prime Membership\n\n"
-                f"● {PRICE2}  For 1 Month Prime Membership\n\n"
-                f"● {PRICE3}  For 3 Months Prime Membership\n\n"
-                f"● {PRICE4}  For 6 Months Prime Membership\n\n"
-                f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 ASK UPI ID TO ADMIN AND PAY THERE -  <code>{UPI_ID}</code>\n\n\n"
-                f"♻️ After Payment You Will Get Instant Membership \n\n\n"
-                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
-            ),
+    f"🍒✨ Welcome, {query.from_user.username}-kun! ✨🍒\n\n"
+    f"🔥 Become part of Nezuko's Secret Club 🔥\n\n"
+    f"💖 Choose your plan to unlock *Prime Access* with Sexy Nezuko Kamado:\n\n"
+    f"🍓 ● {PRICE1} – 0 Days Trial with Nezuko-chan 💋\n"
+    f"🍓 ● {PRICE2} – 1 Month of Sweet Prime Kisses 😘\n"
+    f"🍓 ● {PRICE3} – 3 Months of Demon Queen Bliss 💞\n"
+    f"🍓 ● {PRICE4} – 6 Months of Seductive Serenity 🔥\n"
+    f"🍓 ● {PRICE5} – 1 Year of Eternal Nezuko Night ❤️‍🔥\n\n"
+    f"💸 Payment UPI for your devotion – <code>{UPI_ID}</code>\n\n"
+    f"📸 Send proof of payment (a cute screenshot please~) 📥\n\n"
+    f"🔓 Get instant access once you pay! No waiting, only pleasure 💫\n\n"
+    f"👑 Want a *custom Prime time* with Nezuko? Ask the admin directly 💌"
+),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
